@@ -75,18 +75,10 @@ public class Reto3_1 {
                     System.out.println("El número " + valorConversion + " en base octal es : " + convertirDecimalToOctal(valorConversion));
                     break;
                 case 'c':
-                    // 100
-                    valorConversion = Integer.parseInt(numero);
-                    System.out.println("El número " + valorConversion + " en base decimal es : " + binarioADecimal(valorConversion));
-                    
-                    
                     System.out.println("El número " + numero + " en base decimal es : " + convertirBinarioToDecimal(numero));
-                    
                     break;
                 case 'd':
-
                     System.out.println("El número " + numero + " en base decimal es : " + convertirOctalToDecimal(numero));
-                    
                     break;
                 case 'e':
                     valorConversion = convertirHexadecimalToDecimal(numero);
