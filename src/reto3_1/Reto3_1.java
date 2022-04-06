@@ -68,8 +68,6 @@ public class Reto3_1 {
             switch(opcion){
                 case 'a':
                     valorConversion = Integer.parseInt(numero);
-                    //String resultado = convertirDecimalToBinario(valor_conversion);
-                    //System.out.println("El número " + valor_conversion + " en base binario es : " + resultado);
                     System.out.println("El número " + valorConversion + " en base binario es : " + convertirDecimalToBinario(valorConversion));
                     break;
                 case 'b':
